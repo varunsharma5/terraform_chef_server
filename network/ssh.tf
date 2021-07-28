@@ -1,0 +1,4 @@
+resource "aws_key_pair" "vm_ssh_key" {
+  key_name = var.key_name
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCHQWkRtCeaG/xsxMIHDt+91q//4z4sjMjlpvFMvVxHPCOyUGaiZwI7Nrujfzzm7dVj1w0k6BAvfbbsEsbwh4XdEKVEbPHH6ohqZE29rnKn7Gp+fM5LUqSWp+lrFD8+FwIf+JLJ/gUgkP8PAvDpwj5WdSNqKIKY0F2lwT2XqmS3B5kxhEQ/QxlX9Fh0fY6PS5HYRCEPEio01mVWZn7YIIW7JeX0ga0PhzVp6F2PvEMToz98fb2n1G4PW+0+6RoCczkXXsHwUEVTtzdevErNRrq+3PMRv2kDKdjlVWyn0pPVjZg+mR1k92ph2kt4LPUS10Z9dl/Mo0WozfzmK62iDPUH"
+}
